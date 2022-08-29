@@ -1,5 +1,50 @@
 .container {
-  width: 400px;
+  padding: 0 10px;
   margin: 0 auto;
   min-height: 100vh;
+}
+.not-found {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-result {
+  width: 100%;
+  align-items: center;
+}
+.user-result .cirle { 
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.user-result .cirle-cl-2 {
+  width: 10px;
+  height: 10px;
+  background: #239d3d;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user-result .cirle-cl-0{
+  width: 10px;
+  height: 10px;
+  background: #d72f3d;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user-result .cirle-cl-1 {
+  width: 10px;
+  height: 10px;
+  background: #d7e11d;
+  border-radius: 50%;
+  margin-right: 10px;
 }
